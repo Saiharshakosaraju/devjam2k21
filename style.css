@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(2, 20, 27);
+  }
+  
+  h1 {
+    padding:5px;;
+    color: rgb(122, 223, 55);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    font-family: Verdana;
+  }
+  .center {
+    padding-top:0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img
+  {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    border-style:unset;
+  }
+  p {
+    padding-top: 0px;
+    color: rgb(26, 224, 158);
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+  }
+  .button
+  {
+    background-color: aquamarine;
+    border-radius: 8px;
+    color: black;
+    size: 20cm;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .validation
+  {
+    border-radius: 8px;
+  }
+  h2{
+    font-size: 20;
+    text-align: center;
+    color:turquoise;
+    padding-bottom: 0px;
+  }
+  h3
+  {
+    color: turquoise;
+    text-align:center;
+    font-weight: normal;
+    font-variant-position:sub;
+  }
+  h4
+  {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  input
+{
+  -moz-border-radius: 20px;
+ border-radius: 20px;
+    border:solid 1px black;
+    padding:6px;
+}
